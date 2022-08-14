@@ -1,6 +1,6 @@
 ---
 - name: create a user account
-  hosts: all
+  hosts: production
   tasks:
     - name:  create user nene
       user:
